@@ -1,4 +1,4 @@
-# 🏨 Hotel Room Upgrade Prediction — Post Peak Season
+# Hotel Room Upgrade Prediction — Post Peak Season
 
 **Tools:** Python (Pandas, Scikit-learn, SHAP, Streamlit)  
 **Dataset:** Hotel Booking Demand Dataset — data historis reservasi hotel multi-properti  
@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Latar Belakang
+## Latar Belakang
 
 Setelah peak season berakhir, hotel menghadapi tantangan yang sama hampir setiap tahun: tingkat okupansi turun, dan revenue ikut tertekan.
 
@@ -20,7 +20,7 @@ Kalau bisa, hotel tidak perlu lagi menawarkan upgrade ke semua orang. Cukup ke t
 
 ---
 
-## ❓ Pertanyaan Bisnis
+## Pertanyaan Bisnis
 
 1. Karakteristik tamu seperti apa yang paling cenderung menerima upgrade?
 2. Apakah saluran pemesanan (Direct, Corporate, TA/TO) mempengaruhi peluang upgrade?
@@ -29,7 +29,7 @@ Kalau bisa, hotel tidak perlu lagi menawarkan upgrade ke semua orang. Cukup ke t
 
 ---
 
-## 🗄️ Dataset
+## Dataset
 
 Dataset berisi data historis reservasi dari beberapa properti hotel dengan fitur utama:
 
@@ -53,7 +53,7 @@ Dataset berisi data historis reservasi dari beberapa properti hotel dengan fitur
 
 ---
 
-## 🔍 Pendekatan & Metodologi
+## Pendekatan & Metodologi
 
 ### Tantangan Utama: Class Imbalance
 Mayoritas tamu tidak melakukan upgrade — sehingga model yang naif akan selalu memprediksi "tidak upgrade" dan tetap terlihat akurat. Ini tidak berguna secara bisnis.
@@ -70,7 +70,7 @@ Random Forest Classifier dengan hyperparameter tuning via GridSearchCV.
 
 ---
 
-## 📊 Hasil & Temuan
+## Hasil & Temuan
 
 ### Feature Importance (SHAP Analysis)
 
@@ -102,7 +102,7 @@ Segmen Family memiliki upgrade rate 14.41% — jauh di atas Group yang tidak per
 
 ---
 
-## 💡 Rekomendasi Strategis
+## Rekomendasi Strategis
 
 | Prioritas | Strategi | Target Segmen |
 |-----------|----------|---------------|
@@ -143,7 +143,7 @@ room-upgrade-prediction-post-peak/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python** — Pandas, NumPy, Scikit-learn
 - **Imbalanced Learning** — SMOTE via imbalanced-learn
@@ -153,7 +153,7 @@ room-upgrade-prediction-post-peak/
 
 ---
 
-## 💼 Skills yang Didemonstrasikan
+## Skills yang Didemonstrasikan
 
 - Supervised machine learning untuk klasifikasi binary
 - Penanganan imbalanced dataset dengan SMOTE
