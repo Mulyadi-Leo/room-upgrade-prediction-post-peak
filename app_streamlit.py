@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load model dan encoding maps
-model = joblib.load('rf_model_final.pkl')
+model = joblib.load('model_terbaik_baru.pkl')
 mean_encoding_maps = joblib.load('mean_encoding_maps.pkl')
 
 # Ambil encoding map
